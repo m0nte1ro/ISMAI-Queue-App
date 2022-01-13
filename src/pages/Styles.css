@@ -1,0 +1,361 @@
+.LoginForm {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  width: 80vw;
+}
+
+.logoWrapper {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.text-center {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3vh;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inputLogin {
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  margin-bottom: 25px;
+  border: 0;
+  border-bottom: 1px solid #555;
+  background: transparent;
+  width: 100%;
+  padding: 8px 0 5px 0;
+  font-size: 2vh;
+  color: #ddd;
+}
+
+.loginButton {
+  width: 100%;
+  height: 4vh;
+  border: none;
+  outline: none;
+  color: #000;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: 2vh;
+  color: #ccc;
+}
+
+.link {
+  padding: 8px 0 5px 0;
+  color: #aaa;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #555;
+  outline: none;
+  font-size: 1.5vh;
+  margin-top: 1vh;
+}
+
+.badLogin {
+  color: rgb(255, 0, 0);
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.BreakHeaderText {
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 4.5vw;
+  padding: 25px;
+}
+.backButtonHeader {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  zoom: 150%;
+  font-size: 2vh;
+}
+.backButtonHeaderLink {
+  color: #fff;
+}
+.forgotWrapper {
+  text-align: left;
+  position: relative;
+  font-size: 2vh;
+  padding: 6vh;
+}
+.forgotWrapper img {
+  margin: auto;
+  text-align: center;
+  width: 75vw;
+  margin-top: -3vh;
+}
+.forgotTitle {
+  font-size: 2.5vh !important;
+  font-weight: bold;
+  text-align: justify;
+}
+.forgotSubTitle {
+  font-size: 2vh !important;
+  text-align: justify;
+}
+.alert-message {
+  color: #ddd !important;
+}
+.alert-button-inner {
+  color: #ddd !important;
+}
+.emailForgotPage {
+  color: #ddd;
+  margin: auto;
+  margin-left: 1vh;
+}
+.textForgotPW {
+  text-align: justify;
+}
+.opcoesCards {
+  width: 100%;
+  cursor: pointer;
+  min-height: 12vh;
+  margin: 1vh;
+  border-radius: 0.5vh;
+}
+.opcoesCards h1 {
+  font-size: 3vh;
+  margin: 1vh;
+  color: #ddd;
+}
+.opcoesCards p {
+  font-size: 1.6vh;
+  margin: 1vh;
+  color: #ddd;
+}
+.tiposCards {
+  width: 100%;
+  cursor: pointer;
+  min-height: 8vh;
+  margin: 1vh;
+  border-radius: 0.5vh;
+}
+.tiposCards h1 {
+  font-size: 3vh;
+  margin: 1vh;
+  position: absolute;
+  color: #ddd;
+  top: 37.5%;
+  transform: translateY(-50%);
+}
+.tiposCards p {
+  font-size: 1.6vh;
+  margin: 1vh;
+  color: #ddd;
+}
+
+.tirarSenhaWrapper {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+}
+.tirarSenhaCard {
+  margin: 3vh;
+  text-align: center;
+  border-radius: 2vh;
+}
+.tirarSenhaCard ion-card {
+  border-radius: 2vh;
+  width: 80vw;
+  height: 30vh;
+  color: #ddd;
+}
+.tirarSenhaCard ion-card-title {
+  margin-top: 2vh;
+  font-size: 2.5vh;
+}
+.tirarSenhaCard ion-card-content {
+  font-size: 15vh;
+}
+.tirarSenhaButton {
+  height: 10vh;
+  width: 30vh;
+  font-size: 2vh;
+}
+.tituloSenha {
+  font-size: 2vh;
+}
+.filaSenha {
+  font-size: 2vh;
+}
+.homePageBackground {
+  background: #fff;
+}
+.toolBar {
+  height: 6vh;
+  text-align: center;
+  display: flex;
+  background: #1f1f1f;
+}
+.toolBar ion-title {
+  font-size: 2.5vh;
+}
+.backArrow {
+  width: 3vh;
+  height: 3vh;
+  position: absolute;
+  left: 2%;
+  z-index: 9999;
+  cursor: pointer;
+}
+.frontArrow {
+  width: 3vh;
+  height: 3vh;
+  position: absolute;
+  right: 2%;
+  z-index: 9999;
+  cursor: pointer;
+}
+.pwToggle {
+  width: 3vh;
+  height: 3vh;
+}
+.bgLogo {
+  position: fixed;
+  bottom: 2%;
+  right: 0;
+  opacity: 0.2;
+  width: 50vw;
+}
+.Balcao {
+  text-align: center;
+  margin: auto;
+}
+.Balcao h1 {
+  font-size: 5vh !important;
+}
+.frontArrowCard img {
+  height: 2vh;
+}
+/*LOADING ANIMATION*/
+/*Ring de cima*/
+.lds-ring {
+  display: inline-block;
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  margin: 1vh;
+  border: 1vh solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Ring de baixo*/
+.lds-ring2 {
+  display: inline-block;
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.lds-ring2 div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  margin: 1vh;
+  border: 1vh solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring2 div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring2 div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring2 div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Alert Box*/
+.alert-wrapper.sc-ion-alert-md {
+  min-height: 20vh;
+  min-width: 40vh;
+  text-align: center;
+  border-radius: 1vh;
+}
+.alert-head.sc-ion-alert-md + .alert-message.sc-ion-alert-md {
+  font-size: 2vh;
+}
+.alert-button.sc-ion-alert-md {
+  font-size: 2vh;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%);
+}
+/*Buttons*/
+#cancelButton {
+  left: 25%;
+}
+#okayButton {
+  left: 80%;
+}
+.erro404 {
+  font-size: 4.5vh;
+}
+.grande404 {
+  font-size: 25vh;
+}
+.notFound {
+  text-align: center;
+  margin: auto;
+  margin: 1vh;
+}
